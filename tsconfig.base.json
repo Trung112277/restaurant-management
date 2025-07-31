@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@frontend/*": ["apps/frontend/*"],
-      "@backend/*": ["apps/backend/*"]
+      "@backend/*": ["apps/backend/*"],
+      "@/*": ["./*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
